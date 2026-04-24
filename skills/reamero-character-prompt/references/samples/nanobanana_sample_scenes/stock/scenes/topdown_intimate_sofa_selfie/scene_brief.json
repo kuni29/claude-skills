@@ -1,0 +1,118 @@
+{
+  "scene_brief_version": "1.0",
+  "scene_id": "topdown_intimate_sofa_selfie",
+  "title_ja": "俯瞰・ソファ寝そべり・顔と胴の向きが逆の親密カット",
+  "title_en": "Top-down POV on sofa, head tipped back, face upside-down vs torso",
+  "identity_mode": "reference_locked",
+  "reference_note": "English prompts: prompt_en.md. Riamero: fictional Japanese woman; K-beauty-style makeup wording only as style reference; no moles/freckles.",
+  "subject": {
+    "description": "Young woman lying back intimately, captured from top-down; face appears upside-down relative to torso as she tips her head back toward the camera.",
+    "mirror_rules": null,
+    "age": "early 20s",
+    "expression": {
+      "eyes": {
+        "look": "Half-closed, looking directly at the lens",
+        "energy": "Sultry, relaxed, alluring",
+        "direction": "Upward toward the camera above her"
+      },
+      "mouth": {
+        "position": "Slightly parted",
+        "energy": "Soft, breathing gently"
+      },
+      "overall": "Lazy, unguarded, deeply intimate, effortless"
+    },
+    "face": {
+      "preserve_original": true,
+      "note_when_no_reference": "Soft K-beauty-inspired dewy glass skin, glossy reddish-pink lips, subtle blush, soft eyeliner; clear skin without moles or freckles"
+    }
+  },
+  "hair": {
+    "color": "Black",
+    "style": "Loose, messy, long",
+    "effect": "Gravity pulls strands naturally across face and eyes; organic imperfections, candid feel",
+    "use_only_when_text_only": true
+  },
+  "body": {
+    "frame": "Slim with soft feminine curves",
+    "waist": "Relaxed, not emphasized in frame",
+    "chest": "Visible upper chest and cleavage in neckline",
+    "legs": "Out of focus or cropped; not the focus",
+    "skin": {
+      "visible_areas": "Face, neck, collarbones, shoulders, upper chest",
+      "tone": "Fair warm ivory",
+      "texture": "Smooth, delicately dewy, clear without moles or freckles",
+      "lighting_effect": "Warm directional light: gentle highlights on collarbones and upper chest; a distinct deep shadow band across the neck cast by the chin"
+    }
+  },
+  "pose": {
+    "position": "Lying flat on back on soft cushion, head tipped fully back toward camera; right hand gently touching hair near forehead",
+    "base": "Resting on textured sofa cushion",
+    "overall": "Heavy relaxed gravity, asymmetrical natural rest"
+  },
+  "clothing": {
+    "layered_from_skin_outward": [
+      "White camisole-style bra top with thin spaghetti straps, deep neckline",
+      "Dark charcoal fuzzy knit cardigan slipping off both shoulders, tactile contrast with bare skin"
+    ],
+    "bottom": {
+      "type": "Black pants",
+      "details": "Slightly blurred in deep background"
+    }
+  },
+  "accessories": {
+    "jewelry": "Very delicate thin silver chain necklace with tiny pendant resting at upper chest"
+  },
+  "photography": {
+    "camera_style": "Smartphone casual intimate snapshot aesthetic, top-down personal POV",
+    "angle": "Top-down close-up from above the top of her head, slightly canted skew for candid feel",
+    "shot_type": "Close-up portrait biased to face and upper torso",
+    "aspect_ratio": "3:4 vertical",
+    "texture": "Soft natural noise, authentic digital photo; sharp focus on eyes and lips",
+    "lighting": "Warm directional single main source indoors: high contrast between lit face and chest and deeply shadowed neck under chin",
+    "depth_of_field": "Shallow: face sharp; background torso, cushion, and pants slightly soft"
+  },
+  "background": {
+    "setting": "Cozy indoor living space, on sofa",
+    "elements": [
+      "Textured light beige or grayish sofa cushion",
+      "Glimpse of wooden floor at frame edge"
+    ],
+    "atmosphere": "Private, lazy, domestic warmth",
+    "lighting": "Dimmed warm ambient"
+  },
+  "the_vibe": {
+    "energy": "Sultry, quiet, deeply relaxed",
+    "mood": "Late-night intimacy or lazy Sunday afternoon",
+    "aesthetic": "Soft casual chic, candid romantic, unposed",
+    "authenticity": "Messy hair partly over eyes, asymmetrical rest, clothing shifted by gravity",
+    "intimacy": "Very high; private shared moment",
+    "story": "Resting on sofa, head tipped back looking up, fingers in hair",
+    "caption_energy": "Lazy hours, intimate stillness"
+  },
+  "constraints": {
+    "must_keep": [
+      "Top-down perspective with face upside-down relative to torso",
+      "Messy hair strands crossing part of face or eyes",
+      "Visible upper chest and cleavage within camisole neckline",
+      "Distinct shadow across neck from chin",
+      "Dewy glossy lip and glass-skin makeup style",
+      "Fuzzy cardigan slipping off shoulders"
+    ],
+    "avoid_as_positive_style": [
+      "Not perfect three-point studio lighting",
+      "Not stiff symmetrical pose",
+      "Not flat airbrushed plastic skin",
+      "Not harsh direct on-camera flash as main look",
+      "Not standard upright eye-level headshot framing"
+    ]
+  },
+  "negative_prompt_compact": [
+    "illustration",
+    "3d render",
+    "anime",
+    "watermark",
+    "readable text overlays",
+    "unnatural anatomy",
+    "heavy western contour makeup"
+  ]
+}

@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<style>
+  @page {
+    size: A4;
+    margin: 15mm 18mm 12mm 18mm;
+  }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    font-family: "Hiragino Kaku Gothic ProN", "Hiragino Sans", "Yu Gothic", "Meiryo", sans-serif;
+    font-size: 9.5pt;
+    color: #1a1a1a;
+    line-height: 1.5;
+  }
+  .title {
+    font-size: 20pt;
+    font-weight: bold;
+    letter-spacing: 1.2em;
+    text-align: center;
+    width: 100%;
+    margin-bottom: 4mm;
+    padding-bottom: 2mm;
+    border-bottom: 2.5pt solid #1a1a1a;
+  }
+  .meta-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+  .client-block { flex: 1; }
+  .client-name {
+    font-size: 12pt;
+    font-weight: bold;
+    border-bottom: 1pt solid #1a1a1a;
+    display: inline-block;
+    padding-bottom: 1mm;
+    margin-bottom: 2mm;
+  }
+  .company-block {
+    text-align: right;
+    font-size: 8.5pt;
+    line-height: 1.7;
+    min-width: 200px;
+    max-width: 250px;
+  }
+  .company-block .name {
+    font-size: 11pt;
+    font-weight: bold;
+    margin-bottom: 1mm;
+  }
+  .estimate-meta {
+    text-align: right;
+    font-size: 9pt;
+    margin-bottom: 3mm;
+  }
+  .info-section { margin-bottom: 3mm; }
+  .info-row {
+    display: flex;
+    margin-bottom: 1mm;
+  }
+  .info-label {
+    font-weight: bold;
+    min-width: 70px;
+    padding: 1mm 3mm;
+    background: #1a1a1a;
+    color: #fff;
+    font-size: 8.5pt;
+    margin-right: 3mm;
+    text-align: center;
+  }
+  .info-value {
+    padding: 1mm 2mm;
+    font-size: 9.5pt;
+    border-bottom: 0.5pt solid #ccc;
+    flex: 1;
+  }
+  .total-box {
+    margin: 3mm 0 4mm 0;
+    padding: 2.5mm 5mm;
+    border: 2pt solid #1a1a1a;
+    display: flex;
+    align-items: center;
+  }
+  .total-label {
+    font-weight: bold;
+    font-size: 11pt;
+    margin-right: 8mm;
+    min-width: 35px;
+  }
+  .total-amount {
+    font-size: 16pt;
+    font-weight: bold;
+    letter-spacing: 0.05em;
+  }
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 4mm;
+    font-size: 9pt;
+  }
+  thead th {
+    background: #1a1a1a;
+    color: #fff;
+    font-weight: bold;
+    padding: 2mm 3mm;
+    text-align: center;
+    font-size: 8.5pt;
+  }
+  thead th:first-child { text-align: left; }
+  tbody td {
+    padding: {{ table_padding | default('2mm 3mm') }};
+    border-bottom: 0.5pt solid #ccc;
+    vertical-align: middle;
+  }
+  tbody td.item-name { text-align: left; }
+  tbody td.num { text-align: right; }
+  tbody td.center { text-align: center; }
+  .summary-table {
+    width: 250px;
+    margin-left: auto;
+    border-collapse: collapse;
+    margin-bottom: 4mm;
+    font-size: 9.5pt;
+  }
+  .summary-table td {
+    padding: 1.5mm 3mm;
+    border-bottom: 0.5pt solid #ccc;
+  }
+  .summary-table td:first-child {
+    text-align: right;
+    font-weight: bold;
+    padding-right: 5mm;
+  }
+  .summary-table td:last-child {
+    text-align: right;
+    min-width: 100px;
+  }
+  .summary-table tr.total-row td {
+    border-top: 1.5pt solid #1a1a1a;
+    border-bottom: 1.5pt solid #1a1a1a;
+    font-weight: bold;
+    font-size: 10.5pt;
+    padding: 2mm 3mm;
+  }
+  .notes {
+    border: 1.5pt solid #1a1a1a;
+    padding: {{ note_style.padding }};
+    font-size: {{ note_style.font_size }};
+    line-height: {{ note_style.line_height }};
+  }
+  .notes-title {
+    font-weight: bold;
+    font-size: {{ note_style.font_size }};
+    margin-bottom: 1mm;
+    padding-bottom: 0.5mm;
+    border-bottom: 0.5pt solid #ccc;
+  }
+  .notes p { margin-bottom: 0.5mm; }
+  .project-name {
+    margin-top: 2mm;
+    margin-bottom: 3mm;
+  }
+  .project-label {
+    font-weight: bold;
+    font-size: 9pt;
+    background: #1a1a1a;
+    color: #fff;
+    padding: 1mm 3mm;
+    display: inline-block;
+    margin-right: 3mm;
+  }
+</style>
+</head>
+<body>
+
+<div class="title">見 積 書</div>
+
+<div class="meta-row">
+  <div class="client-block">
+    <div class="client-name">{{ client.company }}　御中</div>
+
+    <div class="project-name">
+      <span class="project-label">案件名</span>
+      <span style="font-size: 9.5pt;">{{ project_name }}</span>
+    </div>
+
+    <p style="font-size: 9.5pt; margin-top: 2mm; margin-bottom: 3mm;">下記のとおり、御見積り申し上げます。</p>
+
+    <div class="info-section">
+      <div class="info-row">
+        <div class="info-label">支払条件</div>
+        <div class="info-value">{{ terms.payment }}</div>
+      </div>
+      <div class="info-row">
+        <div class="info-label">契約期間</div>
+        <div class="info-value">{{ terms.contract_period }}</div>
+      </div>
+      <div class="info-row">
+        <div class="info-label">{{ delivery.label }}</div>
+        <div class="info-value">{{ delivery.date }}</div>
+      </div>
+      <div class="info-row">
+        <div class="info-label">有効期限</div>
+        <div class="info-value">{{ terms.valid_until }}</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="company-block">
+    <div class="estimate-meta">
+      見積日　{{ estimate.date }}<br>
+      見積 No. {{ estimate.number }}
+    </div>
+    <div class="name">{{ company.name }}</div>
+    {{ company.zip }}<br>
+    {{ company.address }}<br>
+    {% if company.address2 %}{{ company.address2 }}<br>{% endif %}
+    Tel: {{ company.tel }}
+  </div>
+</div>
+
+<div class="total-box">
+  <div class="total-label">合計</div>
+  <div class="total-amount">{{ total|fmt }} 円（税込）</div>
+</div>
+
+<table>
+  <thead>
+    <tr>
+      <th style="width: 52%;">項目</th>
+      <th style="width: 10%;">数量</th>
+      <th style="width: 8%;">単位</th>
+      <th style="width: 15%;">単価</th>
+      <th style="width: 15%;">金額</th>
+    </tr>
+  </thead>
+  <tbody>
+    {% for item in items %}
+    <tr>
+      <td class="item-name">{{ item.name }}</td>
+      <td class="num">{{ item.quantity }}</td>
+      <td class="center">{{ item.unit }}</td>
+      <td class="num">{{ item.unit_price|fmt }}</td>
+      <td class="num">{{ item.amount|fmt }}</td>
+    </tr>
+    {% endfor %}
+    {% if discount %}
+    <tr>
+      <td class="item-name">{{ discount.name }}</td>
+      <td class="num">1</td>
+      <td class="center">式</td>
+      <td class="num"></td>
+      <td class="num">-{{ discount_amount|fmt }}</td>
+    </tr>
+    {% endif %}
+  </tbody>
+</table>
+
+<table class="summary-table">
+  <tr>
+    <td>小計</td>
+    <td>{{ subtotal|fmt }}</td>
+  </tr>
+  <tr>
+    <td>消費税</td>
+    <td>{{ tax|fmt }}</td>
+  </tr>
+  <tr class="total-row">
+    <td>合計</td>
+    <td>{{ total|fmt }}</td>
+  </tr>
+</table>
+
+<div class="notes">
+  <div class="notes-title">備考</div>
+  {% for note in notes %}
+  <p>※{{ loop.index }}. {{ note }}</p>
+  {% endfor %}
+</div>
+
+</body>
+</html>

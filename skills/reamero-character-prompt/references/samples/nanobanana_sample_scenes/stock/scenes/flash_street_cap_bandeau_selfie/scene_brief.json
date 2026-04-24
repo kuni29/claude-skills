@@ -1,0 +1,114 @@
+{
+  "scene_brief_version": "1.0",
+  "scene_id": "flash_street_cap_bandeau_selfie",
+  "title_ja": "フラッシュ近距離半身・腕前景・黒キャップ×ラインストーン・バンドゥ",
+  "title_en": "Flash close half-body selfie, arm to lens, black bling cap, bandeau, street beauty",
+  "source_notes_ja": "中国語シーン参考を既存ストック形式に整理。泪痣指定はりあめろ（ホクロ禁止）のため省略し、目下のソフトな明るさ・トレンドメイクで代替。",
+  "identity_mode": "reference_locked",
+  "reference_note": "English: prompt_en.md. Not mirror shot. Flash makes face brighter than visible body skin.",
+  "subject": {
+    "description": "Close-range half-body selfie composition: face dominates center of frame; one arm extends toward the camera creating strong foreshortening. Slight high angle, head tilted, background subdued and low-presence. On-camera flash lights face and rhinestones on black cap brim with strong specular highlights; face reads brighter and fairer than body skin in frame.",
+    "mirror_rules": null,
+    "age": "late teens to early 20s",
+    "expression": {
+      "eyes": {
+        "look": "Clear defined lashes, liner visible",
+        "energy": "Bright, fashion selfie alertness",
+        "direction": "Toward lens"
+      },
+      "mouth": {
+        "position": "Full lips slightly parted",
+        "energy": "Soft relaxed"
+      },
+      "overall": "Refined youthful beauty selfie, street-luxe polish"
+    },
+    "face": {
+      "preserve_original": true,
+      "note_when_no_reference": "Smooth nose bridge, delicate proportions; short-video / East-Asian-trend-inspired makeup: defined liner and lashes, glossy lips, highlight on cheeks and nose bridge, soft bright under-eye area (no beauty marks or moles per project rules); clear skin without moles or freckles"
+    }
+  },
+  "hair": {
+    "color": "Light warm brown to dark honey with golden warmth",
+    "style": "Long hair, high volume, silky sheen, large soft waves",
+    "effect": "Full glamorous wave movement catching flash on edges",
+    "use_only_when_text_only": true
+  },
+  "body": {
+    "frame": "Slim upper body visible in crop",
+    "waist": "Partially visible or implied",
+    "chest": "Framed by fitted bandeau",
+    "legs": "Out of frame or minimal",
+    "skin": {
+      "visible_areas": "Face, neck, shoulders, arms, visible décolletage",
+      "tone": "Creamy with soft pink undertone on face; body skin slightly dimmer than flash-lit face",
+      "texture": "Smooth refined, gentle beauty retouch and soft focus, naturally flawless look; clear without moles or freckles",
+      "lighting_effect": "Hard frontal flash: strong facial highlights; specular sparkle on cap rhinestones and metallic choker"
+    }
+  },
+  "pose": {
+    "position": "Handheld selfie, arm extended toward lens in foreground",
+    "base": "Slight downward camera tilt, head tilted, intimate large-face framing",
+    "overall": "Street fashion selfie energy, perspective from extended arm"
+  },
+  "clothing": {
+    "layered_from_skin_outward": [
+      "Fitted strapless bandeau or tube top in pale warm beige or soft peach-cream, simple minimal graphic or logo on chest, stretch fabric",
+      "Black structured baseball cap worn forward: brim encrusted with reflective rhinestones or crystals catching flash; crown panel with high-shine reflective graphic pattern, street-luxury vibe"
+    ]
+  },
+  "accessories": {
+    "jewelry": "Thin black or deep brown leather choker with cool metallic buckle or O-ring and simple small pendant, flash catchlight on metal",
+    "device": "Smartphone implied at end of extended arm edge of frame optional"
+  },
+  "photography": {
+    "camera_style": "Smartphone front-camera flash selfie, fashion editorial polish meets street snap",
+    "angle": "Slightly above subject eye line, intimate close framing",
+    "shot_type": "Half-body to bust-up vertical, face very large in frame",
+    "aspect_ratio": "9:16 vertical",
+    "texture": "Crisp sharp detail on face and cap embellishments, clean edges, mild beauty smoothing on skin",
+    "lighting": "Direct on-camera flash as key; background falls darker; strong cheek and nose highlights",
+    "depth_of_field": "Shallow separation, background softly dark and unobtrusive"
+  },
+  "background": {
+    "setting": "Nondescript indoor or night street blur",
+    "wall_color": "Crushed dark tones, low detail",
+    "elements": ["Minimal readable context, bokeh or soft shadow"],
+    "atmosphere": "Subject-forward, background intentionally low presence",
+    "lighting": "Ambient crushed by flash dominance"
+  },
+  "the_vibe": {
+    "energy": "Flashy confident street-beauty selfie",
+    "mood": "Trendy, polished, social-ready",
+    "aesthetic": "East-Asian short-video beauty trend meets luxury street cap",
+    "authenticity": "Real flash snap with deliberate styling",
+    "intimacy": "Close personal framing",
+    "story": "Quick styled selfie with cap and choker under flash",
+    "caption_energy": "Street glam, high-impact face card"
+  },
+  "constraints": {
+    "must_keep": [
+      "On-camera flash on face and cap rhinestones",
+      "Black cap with strong brim sparkle",
+      "Extended arm perspective toward lens",
+      "Large face proportion in frame",
+      "Fitted pale warm bandeau with simple chest graphic",
+      "Thin leather choker with metal flash catchlight",
+      "Creamy highlighted skin on face, darker subdued background"
+    ],
+    "avoid_as_positive_style": [
+      "Not flat even lighting without flash character",
+      "Not mirror reflection composition",
+      "Not busy readable background competing with face",
+      "Not matte flat skin without dimension",
+      "Not beauty marks or moles on skin"
+    ]
+  },
+  "negative_prompt_compact": [
+    "mirror selfie",
+    "extra fingers",
+    "deformed foreshortened arm",
+    "missing cap embellishment",
+    "watermark",
+    "text overlay"
+  ]
+}

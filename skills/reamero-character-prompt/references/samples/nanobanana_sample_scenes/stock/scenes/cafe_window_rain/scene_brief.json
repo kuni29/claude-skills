@@ -1,0 +1,57 @@
+{
+  "scene_brief_version": "1.0",
+  "scene_id": "cafe_window_rain",
+  "title_ja": "カフェ・窓際・雨",
+  "title_en": "Cafe window seat, overcast rain",
+  "identity_mode": "reference_locked",
+  "reference_note": "English: nanobanana_sample_scenes/with_reference/prompt_document.md (example 3).",
+  "subject": {
+    "description": "Seated by tall cafe window on overcast rainy day.",
+    "mirror_rules": null,
+    "age": "late teens",
+    "expression": {
+      "eyes": { "look": "Soft toward camera", "energy": "Calm", "direction": "Camera" },
+      "mouth": { "position": "Lips gently closed", "energy": "Quiet" },
+      "overall": "Editorial cafe mood"
+    },
+    "face": { "preserve_original": true, "note_when_no_reference": "" }
+  },
+  "hair": { "use_only_when_text_only": true, "color": "", "style": "", "effect": "" },
+  "body": {
+    "frame": "Slim",
+    "visible_in_frame": "Waist-up"
+  },
+  "pose": {
+    "position": "Seated three-quarter view",
+    "overall": "Forearms on table, hands around white ceramic mug"
+  },
+  "clothing": {
+    "layered_from_skin_outward": [
+      "Fitted ivory cotton turtleneck base",
+      "Sleeveless charcoal gray wool pinafore dress, midi length, simple lines"
+    ],
+    "jewelry": "None"
+  },
+  "accessories": { "prop": "White ceramic mug" },
+  "photography": {
+    "camera_style": "Natural light editorial",
+    "angle": "Slight three-quarter",
+    "shot_type": "Medium waist-up",
+    "aspect_ratio": "4:5 vertical",
+    "texture": "Clean photorealistic",
+    "lighting": "Diffused window light from side; rain streaks and city bokeh through glass",
+    "depth_of_field": "Moderate; interior softly blurred"
+  },
+  "background": {
+    "setting": "Cafe interior",
+    "atmosphere": "Warm wood, minimal clutter, rainy day outside"
+  },
+  "the_vibe": {
+    "energy": "Quiet cozy",
+    "aesthetic": "Lifestyle editorial"
+  },
+  "constraints": {
+    "must_keep": ["Window rain readable", "Mug in hands", "Layered outfit order"],
+    "avoid_as_positive_style": ["Harsh flash", "Empty white void background"]
+  }
+}

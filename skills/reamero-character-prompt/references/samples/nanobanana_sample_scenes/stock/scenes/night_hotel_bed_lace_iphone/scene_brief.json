@@ -1,0 +1,118 @@
+{
+  "scene_brief_version": "1.0",
+  "scene_id": "night_hotel_bed_lace_iphone",
+  "title_ja": "夜のホテル・ベッドサイド・レースルームウェア・iPhone風",
+  "title_en": "Night luxury hotel bed, black lace loungewear set, warm lamp, iPhone candid 9:16",
+  "identity_mode": "reference_locked",
+  "reference_note": "Adapted from user brief for riamero: fictional character only (no real celebrity). Full matching two-piece lace set; editorial lifestyle framing, not explicit anatomy checklist. English: prompt_en.md.",
+  "subject": {
+    "description": "Young woman seated on a messy hotel bed at night, warm bedside light, black lace loungewear, gentle smile toward camera, casual iPhone-style candid vertical shot — not a mirror selfie.",
+    "mirror_rules": null,
+    "age": "early 20s",
+    "expression": {
+      "eyes": {
+        "look": "Soft, gently toward camera",
+        "energy": "Bright calm, subtle playful warmth",
+        "direction": "Toward camera"
+      },
+      "mouth": {
+        "position": "Lips gently closed, faint relaxed smile",
+        "energy": "Relaxed, gentle"
+      },
+      "overall": "Playful yet composed, intimate confidence, approachable private moment"
+    },
+    "face": {
+      "preserve_original": true,
+      "note_when_no_reference": "Delicate proportions; natural dewy K-beauty-inspired makeup: light blush, glossy MLBB lips, clear skin without moles or freckles"
+    }
+  },
+  "hair": {
+    "color": "Dark honey blonde to light brown",
+    "style": "Shoulder-length messy layers, airy wispy bangs, slightly uneven ends",
+    "effect": "Fine flyaways catching warm side light, late-night realistic texture",
+    "use_only_when_text_only": true
+  },
+  "body": {
+    "frame": "Slim with soft natural curves",
+    "waist": "Naturally defined",
+    "chest": "Natural proportions, fitted by lace top",
+    "legs": "Partially visible where in frame, relaxed seated pose",
+    "skin": {
+      "visible_areas": "Face, neck, shoulders, arms, midriff as framed by clothing edges",
+      "tone": "Fair with warm indoor bias",
+      "texture": "Smooth natural skin with subtle variation; clear without moles or freckles",
+      "lighting_effect": "Bedside warm lamp: creamy highlights and soft shadows on shoulders, neck, torso; natural falloff"
+    }
+  },
+  "pose": {
+    "position": "Sitting on white hotel bedding, body slightly angled",
+    "base": "Relaxed seated posture, one hand may rest near tie or strap naturally",
+    "overall": "Casual intimate snapshot, slight head tilt, off-center candid framing"
+  },
+  "clothing": {
+    "layered_from_skin_outward": [
+      "Black floral lace bralette-style top with thin shoulder straps and soft front tie detail, fitted but tasteful coverage for editorial lifestyle",
+      "Matching black lace high-cut briefs or short tap-pants, same set — both visible as a coordinated loungewear look, not nude lower body"
+    ]
+  },
+  "accessories": {
+    "jewelry": "Minimal or none unless in reference",
+    "device": "Smartphone visible in hand or at edge of frame optional; warm screen glow on fingers if held"
+  },
+  "photography": {
+    "camera_style": "Smartphone straight-out-camera lifestyle feel, vertical social post mood",
+    "angle": "Slightly low front viewpoint, handheld intimacy",
+    "shot_type": "Medium close-up to three-quarter, torso and context visible, 9:16 vertical",
+    "aspect_ratio": "9:16",
+    "texture": "Subtle grain, natural sharpness, believable noise in shadows",
+    "lighting": "Warm dim bedside lamp, soft pools of light, no hard flash",
+    "depth_of_field": "Shallow to moderate; subject clear, background bedding and furniture soft"
+  },
+  "background": {
+    "setting": "Nighttime upscale hotel bedroom, European-leaning decor",
+    "wall_color": "Muted low-saturation walls, walnut wood furniture accents",
+    "elements": [
+      "Messy white quilt and pillows",
+      "Warm bedside lamp camera left",
+      "Window blinds closed",
+      "Dark wood headboard",
+      "Bedside surface with a few personal items, not cluttered"
+    ],
+    "lighting": "Low-key warm tungsten-like pools, deeper shadows in corners"
+  },
+  "the_vibe": {
+    "energy": "Soft playful calm",
+    "mood": "Private relaxed evening",
+    "aesthetic": "Natural dewy beauty, candid phone photo, imperfect framing OK",
+    "authenticity": "Lived-in bedding, stray hairs, casual asymmetry",
+    "intimacy": "Personal travel or staycation moment",
+    "story": "Winding down on the bed before sleep, quick candid toward camera",
+    "caption_energy": "Quiet smile, inviting but understated"
+  },
+  "constraints": {
+    "must_keep": [
+      "Fictional character, not a real celebrity likeness",
+      "Coordinated black lace two-piece loungewear (top and bottom both present)",
+      "Warm bedside practical lighting",
+      "9:16 vertical iPhone-style candid",
+      "Messy shoulder-length hair with wispy bangs per reference or brief"
+    ],
+    "avoid_as_positive_style": [
+      "Not real-person celebrity imitation",
+      "Not hard on-camera flash as main key",
+      "Not sterile studio seamless backdrop",
+      "Not hyper-HDR skin",
+      "Not nudity or missing lower garment",
+      "Not deformed hands or extra fingers"
+    ]
+  },
+  "negative_prompt_compact": [
+    "celebrity name or likeness",
+    "nudity",
+    "missing clothing on lower body",
+    "watermark",
+    "text overlay",
+    "extra fingers",
+    "deformed anatomy"
+  ]
+}

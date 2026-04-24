@@ -1,0 +1,116 @@
+{
+  "scene_brief_version": "1.0",
+  "identity_mode": "reference_locked",
+  "reference_note": "Attach canonical headshot or 2x2 face panel before sending the English prompt. When reference_locked, omit conflicting hair/face/makeup text in the final prompt.",
+  "subject": {
+    "description": "Young woman taking a seated mirror selfie, head turned in profile.",
+    "mirror_rules": "Holding phone in right hand, reflecting herself; gaze is directed away from the mirror (looking off to the left in the reflection). Single smartphone, correct hand anatomy.",
+    "age": "early 20s",
+    "expression": {
+      "eyes": {
+        "look": "Soft, distant",
+        "energy": "Calm, detached",
+        "direction": "Looking away to the left"
+      },
+      "mouth": {
+        "position": "Closed, relaxed",
+        "energy": "Neutral"
+      },
+      "overall": "Candid, unguarded, relaxed"
+    },
+    "face": {
+      "preserve_original": true,
+      "note_when_no_reference": "East Asian facial features, soft jawline; minimalist glass-skin makeup, dewy finish, soft peach lips"
+    }
+  },
+  "hair": {
+    "color": "Black",
+    "style": "Messy low bun, long loose curtain bangs framing the face",
+    "effect": "Casual, slightly frizzy, slept-in texture",
+    "use_only_when_text_only": true
+  },
+  "body": {
+    "frame": "Slim, soft curves",
+    "waist": "Slightly bent, relaxed core",
+    "chest": "Subtle cleavage, natural drop",
+    "legs": "Folded and bent, prominent foreground",
+    "skin": {
+      "visible_areas": "Shoulders, collarbones, upper chest, full arms, entire thighs and lower legs",
+      "tone": "Fair to light tan",
+      "texture": "Smooth, dewy, supple moisturized look",
+      "lighting_effect": "Soft physical daylight highlights catching the left shoulder cap, collarbone, and upper thigh"
+    }
+  },
+  "pose": {
+    "position": "Sitting on the floor, sideways to the mirror",
+    "base": "Resting on buttocks and feet/heels",
+    "overall": "Legs loosely tucked and bent, left arm resting casually across the lap, right arm raised holding the phone"
+  },
+  "clothing": {
+    "top": {
+      "type": "Sports bra / bralette",
+      "color": "White",
+      "details": "Scoop neck, thick straps",
+      "effect": "Form-fitting, matte fabric"
+    },
+    "bottom": {
+      "type": "High-cut briefs",
+      "color": "White",
+      "details": "Matching set, high leg line",
+      "effect": "Stretches over hips seamlessly"
+    },
+    "extras": "White ribbed mid-calf socks"
+  },
+  "accessories": {
+    "headwear": null,
+    "jewelry": "Simple silver ring on right index finger",
+    "device": "Rose gold smartphone with visible back logo",
+    "prop": null
+  },
+  "photography": {
+    "camera_style": "Smartphone camera mirror selfie",
+    "angle": "Slightly high angle, looking down at the seated subject",
+    "shot_type": "Mid-shot to full body",
+    "aspect_ratio": "3:4 or 4:5",
+    "texture": "Slight digital noise, unpolished phone camera realism",
+    "lighting": "Soft natural ambient indoor lighting, diffuse shadows",
+    "depth_of_field": "Deep enough for subject and mirror reflection; slight overall softness"
+  },
+  "background": {
+    "setting": "Cozy bedroom interior",
+    "wall_color": "Off-white / pale cream",
+    "elements": [
+      "Thick wooden mirror frame dominating the right foreground",
+      "Bed with pink and white gingham checkered sheets",
+      "White floor lamp",
+      "Ocean landscape painting on wall",
+      "Wall-mounted thermostats or light switches",
+      "Light wood flooring"
+    ],
+    "atmosphere": "Quiet weekend morning, bright but soft",
+    "lighting": "Natural window light bleeding into the room"
+  },
+  "the_vibe": {
+    "energy": "Lazy, comfortable, intimate",
+    "mood": "Tranquil",
+    "aesthetic": "Soft girl, casual loungewear, authentic candid",
+    "authenticity": "Imperfect framing and messy hair add realism",
+    "intimacy": "Private morning moment before getting dressed",
+    "story": "Weekend morning, quick snap before starting the day",
+    "caption_energy": "Lazy Sunday mood"
+  },
+  "constraints": {
+    "must_keep": [
+      "Thick wooden mirror frame cutting off the right side",
+      "Profile face angle looking away from lens",
+      "Seated floor pose with bent legs",
+      "White two-piece set and ribbed socks"
+    ],
+    "avoid_as_positive_style": [
+      "Not direct eye contact with the camera lens",
+      "Not polished studio lighting — natural window-led ambient only",
+      "Slightly casual off-center framing, not perfectly symmetrical",
+      "Light fresh makeup only, not heavy glam"
+    ]
+  }
+}

@@ -1,0 +1,85 @@
+{
+  "scene_brief_version": "1.0",
+  "scene_id": "grid_intimate_desire_glamour",
+  "title_ja": "2×2グリッド・親密な熱気・グラムフォト（汗ばんだツヤ肌）",
+  "title_en": "2x2 grid, intimate desire glamour, sweaty glossy skin, warm indoor flash",
+  "identity_mode": "reference_locked",
+  "reference_note": "English: prompt_en.md. 2x2 grid layout, completely unguarded expression, slightly sweaty glossy skin.",
+  "subject": {
+    "description": "A miniature visual narrative of desire and seduction through four different cinematic compositions in a 2x2 grid. The subject appears completely unguarded and deeply infatuated.",
+    "age": "early 20s",
+    "expression": {
+      "eyes": "Soft alluring gaze, deeply infatuated, unguarded",
+      "mouth": "Lips slightly parted, soft breath",
+      "overall": "Intimate desire, female pheromones, completely unguarded"
+    },
+    "face": {
+      "preserve_original": true,
+      "note_when_no_reference": "Clear skin, flushed cheeks, slightly sweaty glossy sheen, dewy finish"
+    }
+  },
+  "hair": {
+    "use_only_when_text_only": true,
+    "texture": "Messy, slightly damp, loosely tousled"
+  },
+  "body": {
+    "skin": {
+      "texture": "Slightly sweaty, glossy sheen, flushed and warm",
+      "lighting_effect": "Gleaming under warm flash"
+    }
+  },
+  "pose": {
+    "overall": "Four different cinematic compositions capturing intimacy and surrender"
+  },
+  "clothing": {
+    "layered_from_skin_outward": [
+      "Thin silk or lace slip dress, slightly slipping off one shoulder (tasteful glamour)"
+    ],
+    "style_notes": "Intimate loungewear, soft and delicate"
+  },
+  "photography": {
+    "camera_style": "Top-tier glamour photography, 8K ultra-realistic",
+    "angle": "Intimate close-ups and medium shots",
+    "shot_type": "2x2 grid layout (top-left, top-right, bottom-left, bottom-right)",
+    "aspect_ratio": "1:1 square (containing the 2x2 grid)",
+    "texture": "Glossy skin texture, cinematic film grain",
+    "lighting": "Ambiguous warm indoor lighting mixed with a late-night flash photography aesthetic",
+    "depth_of_field": "Shallow depth of field on the background, sharp focus on the glossy skin and eyes"
+  },
+  "background": {
+    "setting": "Ambiguous warm indoor space (e.g., dim bedroom or lounge)",
+    "atmosphere": "Intimate, private, late-night",
+    "lighting": "Low ambient light with warm pools"
+  },
+  "the_vibe": {
+    "energy": "Seductive, unguarded, intimate",
+    "mood": "Deeply infatuated, warm",
+    "aesthetic": "High-end glamour photography, cinematic",
+    "keywords": ["intimate desire", "female pheromones", "unguarded", "sweaty glossy sheen", "late-night flash"]
+  },
+  "constraints": {
+    "must_keep": [
+      "2x2 grid composition in a single image",
+      "Identical facial features across all 4 panels",
+      "Slightly sweaty, glossy skin texture",
+      "Warm indoor flash lighting aesthetic"
+    ],
+    "avoid_as_positive_style": [
+      "Not explicit nudity (keep it tasteful glamour)",
+      "Not a collage of separate photos (must be a clean grid)",
+      "Not dry matte skin",
+      "Not bright daylight"
+    ]
+  },
+  "negative_prompt_compact": [
+    "nudity",
+    "explicit",
+    "dry skin",
+    "matte skin",
+    "daylight",
+    "cartoon",
+    "anime",
+    "illustration",
+    "watermark"
+  ]
+}

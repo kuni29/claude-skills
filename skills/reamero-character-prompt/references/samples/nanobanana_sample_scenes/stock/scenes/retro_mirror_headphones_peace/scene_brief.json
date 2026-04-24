@@ -1,0 +1,130 @@
+{
+  "scene_brief_version": "1.0",
+  "scene_id": "retro_mirror_headphones_peace",
+  "title_ja": "レトロ低画質・ミラー・ヘッドホン×ピースサイン",
+  "title_en": "Retro low-res mirror selfie, headphones, red glasses, peace sign",
+  "identity_mode": "reference_locked",
+  "reference_note": "See prompt_en.md in this folder for full English. Riamero: omit moles/freckles in prompts; no beauty mark text.",
+  "subject": {
+    "description": "Young East Asian woman taking a mirror selfie, oversized silver over-ear headphones, slim red glasses, playful open-mouth expression and peace sign, old-school low-resolution digital snapshot style.",
+    "mirror_rules": [
+      "Mirror selfie composition",
+      "Printed text readable and correctly oriented, not reversed in final image",
+      "No extra fingers, no duplicated phone edges, no floating accessories",
+      "Render visible text legibly even if mirror physics would invert — creative priority on readable lettering"
+    ],
+    "age": "late teens to early 20s",
+    "expression": {
+      "eyes": {
+        "look": "Looking at phone screen through mirror",
+        "energy": "Bright, alert, teasing",
+        "direction": "Slightly right of camera axis"
+      },
+      "mouth": {
+        "position": "Open soft surprised O-shape",
+        "energy": "Spontaneous, playful"
+      },
+      "overall": "Cute, lively, caught in the moment"
+    },
+    "face": {
+      "preserve_original": true,
+      "note_when_no_reference": "Natural youthful proportions, soft jawline, delicate nose, clear skin without moles or freckles; light blush, soft eyeliner, gentle under-eye warmth, natural glossy lips"
+    }
+  },
+  "hair": {
+    "color": "Deep black",
+    "style": "Long straight with blunt bangs, a few loose front strands",
+    "effect": "Smooth glossy with slight flyaways and naturally uneven strands",
+    "use_only_when_text_only": true
+  },
+  "body": {
+    "frame": "Slim upper body",
+    "waist": "Not clearly visible in crop",
+    "chest": "Covered by loose t-shirt",
+    "legs": "Not visible",
+    "skin": {
+      "visible_areas": "Face, neck, hands, forearms",
+      "tone": "Light warm ivory",
+      "texture": "Soft, smooth, lightly powdered look, touchable",
+      "lighting_effect": "Warm indoor light with mild highlight bloom on skin and fabric"
+    }
+  },
+  "pose": {
+    "position": "Tight upper-body mirror crop",
+    "base": "One hand holds phone near face, other hand peace sign, head slightly tilted",
+    "overall": "Casual asymmetrical selfie, candid energy"
+  },
+  "clothing": {
+    "top": {
+      "type": "Loose white graphic t-shirt",
+      "color": "White with pink lettering",
+      "details": "Large pink printed letters across chest, soft worn casual feel",
+      "effect": "Slightly overexposed highlights, washed digital whites"
+    },
+    "bottom": {
+      "type": "Not visible",
+      "color": "not visible",
+      "details": "Out of frame"
+    }
+  },
+  "accessories": {
+    "jewelry": "Red ribbon-like choker layered with metallic chain and long vertical pendant",
+    "device": "Smartphone with colorful collage-style case",
+    "prop": "Oversized silver over-ear headphones; slim translucent red oval glasses"
+  },
+  "photography": {
+    "camera_style": "Retro mirror selfie, early social media digital snapshot, low-pixel realistic phone photography",
+    "angle": "Eye-level mirror reflection with slight inward lean",
+    "shot_type": "Tight chest-up vertical selfie",
+    "aspect_ratio": "9:16",
+    "texture": "Low resolution, mild compression, soft detail, digital grain, slightly imperfect sharpness",
+    "lighting": "Warm indoor ambient, uneven and flat, blown highlights on shirt and fingers",
+    "depth_of_field": "Deep smartphone focus, minimal optical blur"
+  },
+  "background": {
+    "setting": "Indoor mirror, quiet room or hallway",
+    "wall_color": "Brown wood and muted beige",
+    "elements": ["Dark doorway edge", "Wooden wall panel", "Plain interior surface"],
+    "atmosphere": "Private, quiet, unpolished, late-night indoor stillness",
+    "lighting": "Dim warm room, soft shadow falloff"
+  },
+  "the_vibe": {
+    "energy": "Playful intimate, quick snap while listening to music",
+    "mood": "Sweet, mischievous, low-key nostalgic",
+    "aesthetic": "Old internet mirror selfie, early digital charm, imperfect memorable",
+    "authenticity": "Slight awkwardness, accidental framing, low-end camera realism",
+    "intimacy": "Personal, small-circle not polished audience",
+    "story": "Turned to mirror with headphones on, split second before pose became deliberate",
+    "caption_energy": "Casual cute understated"
+  },
+  "constraints": {
+    "must_keep": [
+      "Silver over-ear headphones",
+      "Slim red glasses",
+      "Open-mouth playful expression",
+      "Peace sign",
+      "White tee with pink lettering",
+      "Mirror selfie framing",
+      "Low-pixel retro digital texture",
+      "Warm indoor lighting"
+    ],
+    "avoid_as_positive_style": [
+      "Not studio lighting or fashion editorial polish",
+      "Not ultra-crisp luxury skin retouch",
+      "Not cinematic bokeh",
+      "Not perfectly symmetrical composition",
+      "Not heavy glam makeup",
+      "Not hyper-detailed modern flagship-phone clarity",
+      "Not anime stylization"
+    ]
+  },
+  "negative_prompt_compact": [
+    "extra fingers",
+    "deformed hands",
+    "duplicate phone",
+    "reversed unreadable text",
+    "missing headphones",
+    "wrong glasses color",
+    "short hair"
+  ]
+}

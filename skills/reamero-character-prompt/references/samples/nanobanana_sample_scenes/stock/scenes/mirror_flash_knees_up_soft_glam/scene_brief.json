@@ -1,0 +1,124 @@
+{
+  "scene_brief_version": "1.0",
+  "scene_id": "mirror_flash_knees_up_soft_glam",
+  "title_ja": "暗室ミラー・膝抱え・スマホフラッシュ・ソフトグラム・アッシュボブ",
+  "title_en": "Dark room mirror selfie, knees up, phone flash flare, Korean soft glam, ash bob",
+  "source_notes_ja": "ユーザー JSON（mode PRO）を既存ストックスキーマに正規化。",
+  "identity_mode": "reference_locked",
+  "reference_note": "English: prompt_en.md. Mirror selfie; rear flash visible as burst in reflection.",
+  "subject": {
+    "description": "Mirror selfie: young woman sitting with knees pulled up, smartphone in right hand, gaze slightly sideways; calm soft introspective mood. Close-up to mid-body framing.",
+    "mirror_rules": [
+      "Mirror selfie composition with subject visible in reflection",
+      "Single smartphone, correct hand anatomy",
+      "Any visible text on phone or room remains readable and correctly oriented where shown"
+    ],
+    "age": "late teens to early 20s",
+    "expression": {
+      "eyes": {
+        "look": "Soft, slightly averted from straight-on mirror axis",
+        "energy": "Calm, introspective",
+        "direction": "Slightly sideways, gentle"
+      },
+      "mouth": {
+        "position": "Relaxed closed or softly closed",
+        "energy": "Quiet"
+      },
+      "overall": "Calm, soft, introspective, cute modern clean aesthetic"
+    },
+    "face": {
+      "preserve_original": true,
+      "note_when_no_reference": "Very fair porcelain skin with soft pink undertone; smooth clean natural soft matte finish; minimal realistic retouch, no over-smoothing; clear skin without moles or freckles"
+    },
+    "makeup": {
+      "style": "Korean-inspired soft glam",
+      "eyebrows": "Light natural straight brows",
+      "eyes": "Soft peach-pink eyeshadow, thin eyeliner, subtle wide-eyed doll-like emphasis without exaggeration",
+      "eyelashes": "Natural curled separated",
+      "blush": "Soft pink across cheeks and bridge of nose",
+      "lips": "Glossy pink-nude lips",
+      "highlight": "Subtle glow on nose and cheekbones"
+    }
+  },
+  "hair": {
+    "color": "Silver ash blonde with cool pearly sheen",
+    "style": "Short wavy bob",
+    "bangs": "Thin airy see-through bangs",
+    "texture": "Soft airy lightweight movement",
+    "use_only_when_text_only": true
+  },
+  "body": {
+    "frame": "Slim, seated compact pose",
+    "visible_in_frame": "Face, hands, knees up, torso mid-body as framed",
+    "skin": {
+      "tone": "Very fair porcelain with pink undertone",
+      "texture": "Soft matte natural, minimal retouch",
+      "lighting_effect": "Flash and soft glow on skin; shadows falling backward in space"
+    }
+  },
+  "pose": {
+    "position": "Seated on floor or low seat, knees drawn toward chest",
+    "base": "Right hand holds smartphone for mirror selfie",
+    "overall": "Intimate casual mirror pose, slight sideways gaze"
+  },
+  "clothing": {
+    "layered_from_skin_outward": [
+      "Beige sleeveless fine-rib cotton tank top, minimal casual",
+      "Dark charcoal gray loose-fit denim jeans"
+    ],
+    "style_notes": "Minimal casual aesthetic"
+  },
+  "accessories": {
+    "glasses": "Rimless transparent lenses with thin metal bridge and temple details",
+    "jewelry": "Small silver stud earrings, one minimal silver ring on visible hand"
+  },
+  "photography": {
+    "camera_style": "Smartphone mirror selfie, realistic photography, high resolution",
+    "angle": "Eye-level to mirror, intimate distance",
+    "shot_type": "Close-up to mid-body in vertical framing",
+    "aspect_ratio": "3:4 or 9:16 vertical",
+    "texture": "Ultra clean sharp detail on face, realistic subtle grain acceptable in shadows",
+    "lighting": "Smartphone rear flash energy visible in mirror as strong lens-flare burst from phone camera module; low ambient room; soft glow on skin and hair; shadows fall backward away from flash axis",
+    "depth_of_field": "Shallow; face sharp, background minimal dark blur"
+  },
+  "background": {
+    "setting": "Dark bedroom or studio corner",
+    "mirror": "Full mirror selfie grammar — reflection coherent",
+    "elements": ["Minimal dark uncluttered wall or corner", "No busy decor"],
+    "atmosphere": "Quiet private night-time still",
+    "lighting": "Dominated by phone flash reflection; crushed ambient"
+  },
+  "the_vibe": {
+    "energy": "Soft modern cute",
+    "mood": "Introspective calm",
+    "aesthetic": "Clean doll-like softness without illustration look",
+    "keywords": ["cute", "soft", "modern", "clean aesthetic"]
+  },
+  "constraints": {
+    "must_keep": [
+      "Mirror selfie with visible phone and flash burst character",
+      "Knees-up seated pose",
+      "Silver ash wavy bob with see-through bangs per reference or brief",
+      "Rimless glasses with thin metal",
+      "Beige ribbed tank and dark gray jeans",
+      "Dark minimal background",
+      "Soft glam makeup palette as specified"
+    ],
+    "avoid_as_positive_style": [
+      "Not cartoon, anime, or painted illustration",
+      "Not plastic over-smoothed skin",
+      "Not heavy noise or extreme blur",
+      "Not face distortion or asymmetry errors"
+    ]
+  },
+  "negative_prompt_compact": [
+    "cartoon",
+    "anime",
+    "illustration",
+    "plastic skin",
+    "over-smoothing",
+    "face distortion",
+    "heavy blur",
+    "watermark"
+  ]
+}

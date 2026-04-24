@@ -1,0 +1,9 @@
+{
+  "scene_brief_version": "1.0",
+  "scene_id": "studio_highkey_beauty_closeup_base",
+  "purpose": "environment_and_base_portrait_template",
+  "prompt_role": "nano_banana_framework_1_text_to_image",
+  "recommended_aspect": "1:1 or 4:5 for face-fill close-up",
+  "notes_ja": "照明・白背景・ハイキー・ソフト正面光・商業ビューティ画風を固定。顔・髪・瞳はキャラ設計に差し替え。全文は prompt_document.md。",
+  "identity_mode": "text_first_then_reference_for_scenes"
+}

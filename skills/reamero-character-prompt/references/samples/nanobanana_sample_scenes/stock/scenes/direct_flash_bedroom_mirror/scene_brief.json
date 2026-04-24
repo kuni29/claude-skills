@@ -1,0 +1,65 @@
+{
+  "scene_brief_version": "1.0",
+  "scene_id": "direct_flash_bedroom_mirror",
+  "title_ja": "寝室・立ち・ダイレクトフラッシュ・ミラーセルフィー",
+  "title_en": "Bedroom mirror selfie, on-camera flash, standing",
+  "identity_mode": "reference_locked",
+  "reference_note": "English prompt body matches nanobanana_sample_scenes/with_reference/prompt_document.md (example 1).",
+  "subject": {
+    "description": "Young woman takes a direct-flash smartphone mirror selfie in a bedroom at night.",
+    "mirror_rules": [
+      "Subject visible in mirror; phone visible in hand in reflection",
+      "Single smartphone, five fingers per hand, no duplicated phone edges",
+      "Any visible text readable and not mirrored incorrectly"
+    ],
+    "age": "late teens",
+    "expression": {
+      "eyes": { "look": "Toward mirror and phone", "energy": "Calm", "direction": "At reflection" },
+      "mouth": { "position": "Closed-lip soft smile", "energy": "Relaxed confident" },
+      "overall": "Neutral intimate late-night selfie"
+    },
+    "face": { "preserve_original": true, "note_when_no_reference": "Match riamero face design" }
+  },
+  "hair": { "use_only_when_text_only": true, "color": "", "style": "", "effect": "" },
+  "body": {
+    "frame": "Slim, natural",
+    "visible_in_frame": "Head to hips",
+    "skin": { "tone": "Per reference", "texture": "Natural under flash" }
+  },
+  "pose": {
+    "position": "Standing angled to mirror",
+    "overall": "One hand holds phone near face; other hand across opposite shoulder and upper chest; slight torso twist"
+  },
+  "clothing": {
+    "layered_from_skin_outward": [
+      "Strapless white cotton bandeau tube top, fitted plain",
+      "Loose plaid pajama pants, dark gray and muted off-white check, relaxed fit, low-rise in frame"
+    ]
+  },
+  "accessories": {
+    "device": "Light-colored smartphone, triple rear cameras",
+    "jewelry": "None unless in reference"
+  },
+  "photography": {
+    "camera_style": "Smartphone mirror selfie, strong on-camera flash over dim room",
+    "angle": "Eye-level mirror reflection",
+    "shot_type": "Portrait mid, head to hips",
+    "aspect_ratio": "3:4 vertical",
+    "texture": "Sharp flash, faint grain, mirror dust, subtle glare, social-media realism",
+    "lighting": "Flash dominant; dim ambient bedroom",
+    "depth_of_field": "Deep phone-camera focus"
+  },
+  "background": {
+    "setting": "Simple bedroom",
+    "elements": ["Cool gray wall", "Dark wooden wardrobe left", "Bed lower frame", "Open laptop on bed"],
+    "atmosphere": "Lived-in, quiet night"
+  },
+  "the_vibe": {
+    "energy": "Soft confidence under blunt flash",
+    "aesthetic": "Authentic bedroom mirror realism"
+  },
+  "constraints": {
+    "must_keep": ["Direct flash feel", "Mirror selfie", "Tube top and plaid pants"],
+    "avoid_as_positive_style": ["Studio softboxes", "Editorial polish", "Perfectly clean mirror optional realism"]
+  }
+}

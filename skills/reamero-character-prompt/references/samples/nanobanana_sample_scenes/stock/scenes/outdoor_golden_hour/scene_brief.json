@@ -1,0 +1,54 @@
+{
+  "scene_brief_version": "1.0",
+  "scene_id": "outdoor_golden_hour",
+  "title_ja": "屋外・ゴールデンアワー・歩行",
+  "title_en": "Outdoor sidewalk, golden hour, walking",
+  "identity_mode": "reference_locked",
+  "reference_note": "Not a mirror scene. English: nanobanana_sample_scenes/with_reference/prompt_document.md (example 2).",
+  "subject": {
+    "description": "Same character outdoors on a tree-lined sidewalk during golden hour.",
+    "mirror_rules": null,
+    "age": "late teens",
+    "expression": {
+      "eyes": { "look": "Soft", "energy": "Calm", "direction": "Slightly off-camera" },
+      "mouth": { "position": "Gentle closed-mouth smile", "energy": "Relaxed" },
+      "overall": "Natural street moment"
+    },
+    "face": { "preserve_original": true, "note_when_no_reference": "" }
+  },
+  "hair": { "use_only_when_text_only": true, "color": "", "style": "", "effect": "" },
+  "body": {
+    "frame": "Slim, soft feminine lines",
+    "visible_in_frame": "Full body or knee-up"
+  },
+  "pose": {
+    "position": "Walking mid-step toward camera",
+    "overall": "Relaxed arms, natural stride"
+  },
+  "clothing": {
+    "single_layer": "Knee-length soft sage green linen wrap dress, thin self-tie waist, short sleeves",
+    "jewelry": "None"
+  },
+  "accessories": {},
+  "photography": {
+    "camera_style": "35mm film aesthetic",
+    "angle": "Eye level",
+    "shot_type": "Full body or knee-up",
+    "aspect_ratio": "2:3 vertical",
+    "texture": "Subtle film grain",
+    "lighting": "Warm golden backlight, long soft shadows",
+    "depth_of_field": "Shallow; background trees gently blurred"
+  },
+  "background": {
+    "setting": "Quiet residential street",
+    "atmosphere": "Warm sunset, no crowds"
+  },
+  "the_vibe": {
+    "energy": "Calm editorial travel",
+    "aesthetic": "Analog warmth, photorealistic"
+  },
+  "constraints": {
+    "must_keep": ["Golden hour color", "Walking pose", "Sage wrap dress"],
+    "avoid_as_positive_style": ["Harsh noon sun", "Busy crowd", "Studio backdrop"]
+  }
+}

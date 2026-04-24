@@ -1,0 +1,35 @@
+{
+  "scene_brief_version": "1.0",
+  "scene_id": "your_scene_slug",
+  "title_ja": "（日本語タイトル）",
+  "title_en": "English title",
+  "identity_mode": "reference_locked",
+  "reference_note": "Attach canonical headshot or 2x2 face panel. When reference_locked, do not restate hair/face/makeup in English if it conflicts with the image.",
+  "subject": {
+    "description": "One-line scene summary.",
+    "mirror_rules": "String or array: composition, phone, hands, text orientation.",
+    "age": "late teens | early 20s | narrow range",
+    "expression": {},
+    "face": {
+      "preserve_original": true,
+      "note_when_no_reference": "Only for text-only generation before reference exists."
+    }
+  },
+  "hair": {
+    "use_only_when_text_only": true,
+    "color": "",
+    "style": "",
+    "effect": ""
+  },
+  "body": {},
+  "pose": {},
+  "clothing": {},
+  "accessories": {},
+  "photography": {},
+  "background": {},
+  "the_vibe": {},
+  "constraints": {
+    "must_keep": [],
+    "avoid_as_positive_style": []
+  }
+}

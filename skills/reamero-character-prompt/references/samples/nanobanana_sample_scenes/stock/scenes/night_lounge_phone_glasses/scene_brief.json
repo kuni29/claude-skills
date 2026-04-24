@@ -1,0 +1,125 @@
+{
+  "scene_brief_version": "1.0",
+  "scene_id": "night_lounge_phone_glasses",
+  "title_ja": "夜のソファ・スマホ手前・細眼鏡・ローライト",
+  "title_en": "Night couch lean, phone in foreground, thin metal glasses, low-light candid",
+  "identity_mode": "reference_locked",
+  "reference_note": "Not a mirror shot. English: prompt_en.md. Riamero: fictional Japanese woman, narrow age band; clear skin without moles or freckles.",
+  "subject": {
+    "description": "Young adult woman with soft refined features, thin metal-framed glasses, shoulder-length dark hair, leaning across a couch at night holding a smartphone — quiet low-light candid, not a mirror selfie.",
+    "mirror_rules": null,
+    "age": "early 20s",
+    "expression": {
+      "eyes": {
+        "look": "Soft, slightly tired, subtly attentive",
+        "energy": "Low-key intimate",
+        "direction": "Toward camera as if just looked up from phone"
+      },
+      "mouth": {
+        "position": "Gently closed, relaxed soft pout",
+        "energy": "Quiet, unforced"
+      },
+      "overall": "Dreamy late-night, calm, distant, mildly alluring without exaggeration"
+    },
+    "face": {
+      "preserve_original": true,
+      "note_when_no_reference": "Delicate proportions, narrow jawline, soft cheeks, defined eyes; soft glam: subtle eyeliner, long natural-looking lashes, smooth skin finish, glossy pink-nude lips, lightly defined brows; clear skin without moles or freckles"
+    }
+  },
+  "hair": {
+    "color": "Dark brown to black",
+    "style": "Shoulder-length, loose, softly tousled with slight volume at crown",
+    "effect": "Natural flyaways, soft separation, not salon-rigid",
+    "use_only_when_text_only": true
+  },
+  "body": {
+    "frame": "Slim with soft feminine curves",
+    "waist": "Gently defined",
+    "chest": "Natural, softly framed by neckline",
+    "legs": "Bare, partially folded, extending toward or out of frame",
+    "skin": {
+      "visible_areas": "Shoulders, collarbones, arms, upper chest, thighs, lower legs as visible in frame",
+      "tone": "Fair with warm indoor cast",
+      "texture": "Smooth, velvety, softened by low light and gentle lens blur; clear without moles or freckles",
+      "lighting_effect": "Warm ambient on skin; faint cool phone-screen reflections on face and hands"
+    }
+  },
+  "pose": {
+    "position": "Leaning forward across couch, one arm supporting body, other hand holding smartphone toward foreground",
+    "base": "Casual lounge posture mid-movement",
+    "overall": "Informal intimate slight off-balance, paused while scrolling then looked up"
+  },
+  "clothing": {
+    "layered_from_skin_outward": [
+      "Pale cream sleepwear set with soft blush tint: lace-trim camisole or slip-style top, thin straps, delicate lace, soft fitted lightweight bodice",
+      "Matching pale cream soft shorts or lower slip portion, mostly partially obscured, softly wrinkled"
+    ]
+  },
+  "accessories": {
+    "jewelry": "Small subtle stud earrings",
+    "device": "Smartphone held close to camera plane, dark reflective case, screen glow on fingers",
+    "prop": "Thin metal-framed eyeglasses with visible screen reflections on lenses"
+  },
+  "photography": {
+    "camera_style": "Realistic social-media night portrait, smartphone candid aesthetic",
+    "angle": "Slightly above eye level, close intimate, phone hand entering foreground",
+    "shot_type": "Medium close-up to three-quarter, vertical",
+    "aspect_ratio": "3:4 vertical",
+    "texture": "Soft focus, slight motion blur, low-light grain, gentle smoothing from dim exposure, natural imperfect sharpness",
+    "lighting": "Dim warm room light plus cool phone-screen fill on face and hands; no hard flash",
+    "depth_of_field": "Shallow to moderate; face priority, softened; foreground hand and phone slightly blurred"
+  },
+  "background": {
+    "setting": "Indoor living room or lounge at night",
+    "wall_color": "Warm beige-gray",
+    "elements": [
+      "Dark upholstered couch",
+      "Plain softly lit wall",
+      "Minimal decor"
+    ],
+    "atmosphere": "Quiet private late-night, softly blurred still",
+    "lighting": "Very low ambient tungsten-like room light, shadows in background"
+  },
+  "the_vibe": {
+    "energy": "Slow, hushed, intimate",
+    "mood": "Late-night pause, private emotionally suspended",
+    "aesthetic": "Realistic social softness, low-light candid beauty, imperfect magnetic",
+    "authenticity": "Accidental blur, off-center angle, screen glare on glasses, lived-in couch posture",
+    "intimacy": "Warm room, soft fabric",
+    "story": "Scrolling in silence, then looked up for one quiet second",
+    "caption_energy": "Soft nocturnal, unspoken attention, un-staged"
+  },
+  "constraints": {
+    "must_keep": [
+      "Not a mirror composition",
+      "Thin metal glasses with screen reflections on lenses",
+      "Smartphone in hand near foreground",
+      "Dark shoulder-length tousled hair per reference or brief",
+      "Pale lace-trim cream sleepwear",
+      "Leaning across couch",
+      "Warm dim night indoor light",
+      "Soft blur and low-light grain",
+      "Minimal beige-gray wall, dark couch"
+    ],
+    "avoid_as_positive_style": [
+      "Not studio key lights or seamless backdrop",
+      "Not hard on-camera flash",
+      "Not over-sharpened commercial skin",
+      "Not bright daylight window as main source",
+      "Not heavy jewelry or cluttered room",
+      "Not exaggerated anatomy",
+      "Not broad smile or stiff formal symmetry"
+    ]
+  },
+  "negative_prompt_compact": [
+    "mirror selfie",
+    "hard flash",
+    "watermark",
+    "logo",
+    "text overlay",
+    "extra fingers",
+    "deformed hands",
+    "cartoonish face",
+    "ultra crisp DSLR billboard look"
+  ]
+}
